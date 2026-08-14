@@ -1,0 +1,5 @@
+{
+  "channel": "pr",
+  "subject": "Consolidate session writes behind SessionStore.save()",
+  "created": "2026-06-11T13:22:00"
+}

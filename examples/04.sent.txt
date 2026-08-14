@@ -1,0 +1,9 @@
+Three call sites wrote `sessions.json` directly, so a partial write from any one
+of them left a file the other two could not parse. This moves all three behind
+`SessionStore.save()`, which writes a temp file and renames.
+
+It also adds a test that simulates the partial write, and drops the unused
+`_flush_sessions` helper.
+
+Low risk, but the session store is touched by nearly everything, so I would like
+a second pair of eyes before it merges.

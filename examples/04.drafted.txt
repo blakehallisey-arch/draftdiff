@@ -1,0 +1,21 @@
+## Summary
+
+This PR refactors the session store so that every write goes through one path.
+
+Previously three separate call sites wrote directly to `sessions.json`, which
+meant a partial write from any one of them could leave the file in a state the
+other two could not parse. This PR consolidates them behind
+`SessionStore.save()`, which writes to a temp file and renames.
+
+## Changes
+
+- Added `SessionStore.save()` with an atomic write.
+- Updated the three call sites to leverage it.
+- Added a test that simulates a partial write.
+- Removed the now-unused `_flush_sessions` helper.
+
+## Notes
+
+I think this is a fairly low-risk change, but I wanted to reach out to the team
+before merging since the session store is touched by basically everything.
+Please don't hesitate to reach out with any concerns!

@@ -1,0 +1,23 @@
+# Decision: keep the queue in Postgres
+
+## Context
+
+We looked at moving the job queue off Postgres and onto a dedicated broker. The
+main driver was throughput; we are running about 400 jobs a minute at peak and
+the table is now the largest in the database.
+
+## Decision
+
+We are keeping the queue in Postgres for now.
+
+## Rationale
+
+- At 400 jobs a minute we are nowhere near the ceiling. The benchmark put the
+  breaking point closer to 4,000.
+- A broker we could leverage adds an operational surface nobody on the team
+  currently runs.
+- I think the real cost here is the table size, and partitioning by month solves
+  that without a new dependency.
+
+We will revisit at 2,000 jobs a minute, or if the partitioning work does not
+hold.

@@ -1,0 +1,11 @@
+Hi Alex,
+
+Support tickets have gone from 40 a day to 120 since the release on the 3rd. 71
+of yesterday's 118 were the same authentication timeout. The breakdown by error
+code is attached.
+
+Can you tell me today whether we roll back or push a fix forward? I would rather
+not carry this into the weekend.
+
+Best,
+Dana

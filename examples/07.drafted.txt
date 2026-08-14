@@ -1,0 +1,5 @@
+Hey, quick one. I wanted to reach out because I noticed the staging deploy has
+been failing since about 2pm. I think it might be related to the migration that
+went out this morning, but I am really not sure; I have not dug in yet. Just
+wanted to flag it in case it is blocking anyone else! Let me know if you want me
+to take a look.

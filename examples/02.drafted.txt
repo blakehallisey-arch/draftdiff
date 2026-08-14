@@ -1,0 +1,24 @@
+Hi team,
+
+I wanted to reach out with a quick update on where we landed for Q3. It has been
+a busy few weeks and I am really excited to share where things stand!
+
+## Where we are
+
+- The onboarding rewrite is now code complete and in QA; we expect to ship it
+  the week of the 14th.
+- The billing migration slipped by roughly two weeks, largely due to the vendor
+  dependency. As you know, they owe us a firm date.
+- We have started to leverage the new analytics pipeline for the activation
+  dashboard.
+
+## What we need
+
+- Sign-off from finance on the migration window, at your earliest convenience.
+- One more engineer on billing for the last two sprints.
+
+I will circle back next week once we have a firmer date from the vendor. Please
+let me know if you have any questions.
+
+Thanks,
+Dana

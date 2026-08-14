@@ -1,0 +1,19 @@
+Hi Alex,
+
+I hope you are having a good week. I wanted to reach out about the support
+ticket volume we have been seeing since the release on the 3rd.
+
+As you know, we normally run somewhere around 40 tickets a day. Since the
+release we have been sitting at just over 120, and roughly 60% of them are the
+same authentication timeout. I think this is really worth escalating before the
+weekend.
+
+I have attached the breakdown by error code; the timeout accounts for 71 of
+yesterday's 118 tickets. I would love to get your read on whether we should roll
+back or push a fix forward, at your earliest convenience.
+
+I will circle back Friday if I have not heard anything. Please don't hesitate to
+reach out in the meantime.
+
+Best,
+Dana

@@ -1,0 +1,7 @@
+{
+  "min_occurrences": 3,
+  "min_consistency": 0.6,
+  "max_ngram": 3,
+  "min_pairs": 10,
+  "structure_drop": 0.25
+}

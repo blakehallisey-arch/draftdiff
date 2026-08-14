@@ -1,0 +1,13 @@
+Hi team,
+
+Q3 update. The onboarding rewrite is code complete and in QA, shipping the week
+of the 14th. The billing migration slipped two weeks on the vendor dependency
+and they still owe us a firm date.
+
+Two asks. Finance needs to sign off on the migration window by Friday, and
+billing needs one more engineer for the last two sprints.
+
+I will have a real vendor date next week.
+
+Thanks,
+Dana

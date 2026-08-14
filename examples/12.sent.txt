@@ -1,0 +1,9 @@
+Hi Alex,
+
+The rollback is done. Ticket volume is back to 44 today, inside the normal band.
+
+The authentication timeout fix is in review and should ship Wednesday. I will
+confirm once it clears QA.
+
+Best,
+Dana

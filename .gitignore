@@ -1,0 +1,6 @@
+# The pair store. Drafts carry real names and real addresses; this never leaves
+# the machine it was recorded on.
+.draftdiff/
+
+__pycache__/
+*.pyc
